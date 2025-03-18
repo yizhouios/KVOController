@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'FBKVOController/*.{h,m}'
   spec.requires_arc = true
 
-  spec.ios.deployment_target = '6.0'
+  spec.ios.deployment_target = '15.0'
   spec.osx.deployment_target = '10.7'
   spec.tvos.deployment_target = '9.0'
   spec.watchos.deployment_target = '2.0'
